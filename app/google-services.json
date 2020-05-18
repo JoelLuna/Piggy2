@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "156296260809",
+    "firebase_url": "https://piggy2-f33cd.firebaseio.com",
+    "project_id": "piggy2-f33cd",
+    "storage_bucket": "piggy2-f33cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156296260809:android:a1771915d6b1eb33a1b118",
+        "android_client_info": {
+          "package_name": "luna.barreras.gonzalez.piggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "156296260809-c620buo4pkt2fgsicnn8c2ella4nt3p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luna.barreras.gonzalez.piggy",
+            "certificate_hash": "3c177e73ac3e1c748d91a9c765aa0007370b0335"
+          }
+        },
+        {
+          "client_id": "156296260809-o2ujbetnuf9ohla0im3efq8r7it3kfke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuM7yFkdA2pFfd6VM1bIHjjULaM1bQJcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "156296260809-o2ujbetnuf9ohla0im3efq8r7it3kfke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
