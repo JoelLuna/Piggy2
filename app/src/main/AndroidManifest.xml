@@ -16,11 +16,11 @@
         <activity android:name=".Bienvenida" />
         <activity android:name=".ForgotPassActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Mideseo" />
         <activity android:name=".SavingsRegister" />
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
