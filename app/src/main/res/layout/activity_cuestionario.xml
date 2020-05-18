@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cuestionario">
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <ProgressBar
+                android:id="@+id/progressBar4"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                android:visibility="gone"
+                />
+
+            <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el tiempo en el que ahorras"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        />
+
+    <RadioButton
+        android:layout_marginLeft="60sp"
+        android:id="@+id/rdbtnMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cada Mes"/>
+
+    <RadioButton
+        android:layout_marginLeft="60sp"
+        android:id="@+id/rdbtnSemana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cada Semana" />
+
+    <RadioButton
+        android:layout_marginLeft="60sp"
+        android:id="@+id/rdbtnDiario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diario"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona los modos de págo que tienes"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/DarkBlue"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/tarjeta"
+        android:background="@drawable/round_button"
+        android:layout_marginRight="50dp"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/efectivo"
+        android:background="@drawable/round_botton3"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/tarjeta"
+        android:background="@drawable/round_button"
+        android:layout_marginLeft="50dp"
+        />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta de Credito"
+            android:layout_marginLeft="22dp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Efectivo"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/DarkBlue"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta de Credito"
+            android:layout_marginLeft="35dp"
+            android:textColor="@color/DarkBlue"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tus fondos en efectivo"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/fondosEfectivo"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="MXN"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tus fondos en debito"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/fondosDebito"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="MXN"
+        android:textColor="@color/DarkBlue"
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tus fondos en credito"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/fondoscredito"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/DarkBlue"
+        android:inputType="number"
+        android:hint="MXN"
+        />
+
+    <Button
+        android:onClick="ahorros"
+        android:id="@+id/btngdcuestionario"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_botton3"
+        android:text="Guardar Cambios"
+        android:textColor="@color/BlancoLetra"
+        />
+            <Button
+                android:onClick="finalizar"
+                android:id="@+id/btnfinalizarcuestionario"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_botton3"
+                android:text="Finalizar Cuestionario"
+                android:textColor="@color/BlancoLetra"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

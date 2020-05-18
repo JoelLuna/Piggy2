@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Piggy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_stadistics">Estadisticas</string>
+    <string name="title_Wishes">Deseos</string>
+    <string name="ahorros">Mi Deseo es:</string>
+    <string name="Comida">Comida</string>
+    <string name="Transporte">Transporte</string>
+    <string name="Regalos">Regalos</string>
+    <string name="Escuela">Escuela</string>
+    <string name="Hogar">Hogar</string>
+    <string name="Ejercicio">Ejercicio</string>
+    <string name="Compras">Compras</string>
+    <string name="Ropa">Ropa</string>
+    <string name="Entretenimiento">Entretenimiento</string>
+    <string name="Salud">Salud</string>
+
+</resources>

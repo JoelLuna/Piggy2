@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bienvenida"
+    android:background="@drawable/round_botton3">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="!Benvenido!"
+        android:textColor="@color/BlancoLetra"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estamos listos para ayudarte a organizar tus gastos y que logres tus metas de ahorro."
+        android:textSize="20dp"
+        android:textColor="@color/BlancoLetra"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siempre te recordaremos la cantidad debes ahorrar acordada para llegar al objetivo."
+        android:textSize="20dp"
+        android:textColor="@color/BlancoLetra"
+        />
+
+    <Button
+        android:id="@+id/btncomenzarahora"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:textColor="@color/BlancoLetra"
+        android:text="Comenzar Ahora "
+        android:layout_gravity="right"
+        />
+</LinearLayout>

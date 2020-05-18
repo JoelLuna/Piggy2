@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TableRow
+    android:layout_width="350dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_button"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:text="@string/ahorros"
+        android:textColor="@color/greenarrow"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/mideseo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/DarkBlue"
+        android:text="Ejemplo"
+        android:paddingLeft="15dp"
+        android:textColor="@color/BlancoLetra"
+        android:textSize="25sp" />
+
+    />
+
+</TableRow>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="350dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_button"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_marginTop="8dp"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mi meta es Juntar"
+    android:textColor="@color/BlancoLetra"
+    />
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="Ejemplo cantidad"
+        android:textColor="@color/BlancoLetra"
+        android:textSize="20dp" />
+
+<ProgressBar
+
+    android:layout_gravity="center"
+    android:id="@+id/progressBar"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:progressTint="@color/greenarrow"
+    android:progress="50"
+    />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="350dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_button"
+    android:orientation="vertical"
+    >
+<TextView
+    android:layout_marginTop="8dp"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mi contribución diaria"
+    android:textColor="@color/BlancoLetra"
+    />
+
+<TextView
+    android:layout_marginTop="8dp"
+    android:textSize="20dp"
+    android:id="@+id/dinerocontribu"
+    android:layout_gravity="center"
+    android:textColor="@color/BlancoLetra"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ejemplo cantidad"
+    />
+
+<ProgressBar
+    android:id="@+id/progressBar2"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:progressTint="@color/greenarrow"
+    android:progress="20"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_marginTop="10dp"
+    android:layout_width="350dp"
+android:layout_height="100dp"
+android:layout_gravity="center"
+android:background="@drawable/round_botton3"
+android:orientation="vertical"
+    >
+<TextView
+    android:layout_marginTop="8dp"
+    android:textSize="20dp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Mi meta es Juntar"
+    android:textColor="@color/BlancoLetra"
+    />
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/metadinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejemplo cantidad"
+        android:textColor="@color/BlancoLetra"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" + "
+        android:textSize="20dp"
+        android:textColor="@color/BlancoLetra"
+        >
+    </TextView>
+    <TextView
+        android:textColor="@color/BlancoLetra"
+        android:layout_width="wrap_content"
+        android:id="@+id/cantidad2"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textSize="18dp"
+        />
+</TableRow>
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressTint="@color/DarkBlue"
+        android:progress="20"
+        />
+</LinearLayout>
+
+</LinearLayout>

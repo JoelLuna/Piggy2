@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingBottom="30dp"
+
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="30dp"
+            android:paddingHorizontal="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingMultiplier="0.36"
+                android:text="Escribe aqui lo que deseas añadir"
+                android:textColor="@color/negrosubtitulo1"
+                android:textSize="22.5sp" />
+
+            <EditText
+                android:id="@+id/añadircategoria"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_botton2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingMultiplier="0.36"
+                android:text="Escribe la cantidad a añadir"
+                android:textColor="@color/negrosubtitulo1"
+                android:textSize="22.5sp" />
+
+            <EditText
+                android:id="@+id/pagodecategoria"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="MXN"
+                android:inputType="number"
+                android:textColorHint="@color/DarkBlue"
+                android:textSize="13dp" />
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elige tus categorias"
+                    android:textColor="@color/DarkBlue"
+                    android:textSize="28dp" />
+
+
+
+            </TableRow>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/comida"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/comida2" />
+
+                    <TextView
+                        android:id="@+id/textcomida"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/Comida"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/comidacheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgtransporte"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/transporte2" />
+
+                    <TextView
+                        android:id="@+id/texttransporte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Transporte"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/transportecheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgregalos"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/regalos" />
+
+                    <TextView
+                        android:id="@+id/textregalo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Regalos"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/regalocheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgescuela"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/escuela" />
+
+                    <TextView
+                        android:id="@+id/textescuela"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Escuela"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/escuelacheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imghogar"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/casa" />
+
+                    <TextView
+                        android:id="@+id/texthogar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Hogar"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/hogarcheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgejercicio"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/ejercicio" />
+
+                    <TextView
+                        android:id="@+id/textejercicio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Ejercicio"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/ejerciciocheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgcompras"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/compras" />
+
+                    <TextView
+                        android:id="@+id/textcompras"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Compras"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/comprascheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgropa"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/ropa" />
+
+                    <TextView
+                        android:id="@+id/textropa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Ropa"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/ropacheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgentretenimiento"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/entretenimiento" />
+
+                    <TextView
+                        android:id="@+id/textentretenimiento"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Entretenimiento"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/entretenimientocheckbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_marginLeft="8dp"
+                    android:layout_width="285dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_botton3">
+
+                    <ImageView
+                        android:id="@+id/imgsalud"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_margin="10dp"
+                        android:radius="10dp"
+                        android:src="@drawable/salud" />
+
+                    <TextView
+                        android:id="@+id/txtsalud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:text="@string/Salud"
+                        android:textColor="@color/BlancoLetra"
+                        android:textSize="25sp" />
+
+                </TableRow>
+
+                <CheckBox
+                    android:id="@+id/saludcheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+
+                    />
+            </LinearLayout>
+
+            <Button
+
+                android:id="@+id/btnsavecambios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_button"
+                android:text="Guarda Cambios"
+                android:textColor="@color/BlancoLetra" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

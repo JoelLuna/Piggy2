@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_marginLeft="8dp"
+            android:layout_width="285dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_button">
+
+            <ImageView
+                android:id="@+id/gastos_iconos"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:radius="10dp"
+                 />
+
+            <TextView
+                android:id="@+id/gastos_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:text="@string/Comida"
+                android:textColor="@color/BlancoLetra"
+                android:textSize="25sp" />
+            <Space
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                >
+
+            </Space>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gasto ejemplo"
+                android:textColor="@color/greenarrow"
+                android:textSize="15sp"
+                android:id="@+id/gastos_cantidad"/>
+            />
+
+        </TableRow>
+
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnborrar"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:background="@drawable/borrarazul" />
+    />
+    </LinearLayout>
+</LinearLayout>

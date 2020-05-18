@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Mi Ahorro de Hoy"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/greenarrow"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/montoahorro"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <TextView
+            android:layout_width="310sp"
+            android:layout_height="match_parent"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="x"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/BlancoLetra"
+            android:background="@drawable/round_botton3"
+            />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="1"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="2"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="3"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="446dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="4"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="5"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="130dp"
+            tools:layout_editor_absoluteY="530dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="6"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="525dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="7"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="611dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="8"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="134dp"
+            tools:layout_editor_absoluteY="608dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="150sp"
+            android:layout_height="50sp"
+            android:text="9"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="272dp"
+            tools:layout_editor_absoluteY="606dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="."
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="672dp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="130sp"
+            android:layout_height="50sp"
+            android:text="0"
+            android:textSize="15dp"
+            android:background="@drawable/border_button"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="677dp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="150sp"
+            android:layout_height="40sp"
+            android:text="Sumar Cantidad"
+            android:textColor="@color/BlancoLetra"
+            android:background="@color/DarkBlue"
+            tools:layout_editor_absoluteX="271dp"
+            tools:layout_editor_absoluteY="669dp" />
+    </TableRow>
+</LinearLayout>

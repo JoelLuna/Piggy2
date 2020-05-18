@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SavingsRegister"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/DarkBlue"
+                android:text="¿Cual es el deseo que quieres obtener?"
+                android:textSize="20dp"
+            />
+            <EditText
+                android:id="@+id/textdeseo"
+                android:layout_gravity="center"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:background="@drawable/border_button2"
+        />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/DarkBlue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingrese el valor de lo que deseas"
+                android:textSize="20dp"
+            />
+            <EditText
+                android:textColorHint="@color/DarkBlue"
+                android:layout_gravity="center"
+                android:id="@+id/cantidadahorrar"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:hint="MXN"
+                android:textSize="13dp"
+                android:ems="10"
+                android:textColor="@color/DarkBlue"
+             />
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/DarkBlue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha final para juntar la cantidad"
+                android:textSize="20dp"
+            />
+            <EditText
+                android:background="@drawable/border_button2"
+                android:textColorHint="@color/DarkBlue"
+                android:layout_gravity="center"
+                android:id="@+id/textfecha"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:textColor="@color/DarkBlue"
+                android:hint="dd/mm/aa"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="@color/DarkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingresa tu contribución diaria"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+        />
+            <EditText
+                android:textColor="@color/DarkBlue"
+                android:textColorHint="@color/DarkBlue"
+                android:layout_gravity="center"
+                android:id="@+id/contribucion"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:hint="MXN"
+                android:textSize="13dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:id="@+id/btndeseo"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:background="@drawable/round_button"
+                android:textColor="@color/BlancoLetra"
+                android:text="crear deseo"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

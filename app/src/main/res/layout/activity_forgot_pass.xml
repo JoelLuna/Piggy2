@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForgotPassActivity">
+
+
+    <ProgressBar
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piggy"
+        android:textColor="@color/greenarrow"
+        android:textSize="50dp"
+        />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:textColorHint="@color/BlancoLetra"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/BlancoLetra"
+        android:hint="Correo Electronico" />
+
+    <Button
+        android:onClick="send"
+        android:id="@+id/btnrecuperar"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/BlancoLetra"
+        android:background="@drawable/round_botton3"
+        android:textColorHint="@color/BlancoLetra"
+        android:text="Iniciar Sesion" />>
+
+</LinearLayout>

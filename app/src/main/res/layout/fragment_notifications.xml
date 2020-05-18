@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="30dp"
+            >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:radius="10dp"
+        android:src="@drawable/morra" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mi meta de ahorros"
+        android:textAlignment="center"
+        android:textColor="@color/greenarrow"
+        android:textSize="30dp"
+        />
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:id="@+id/listmideseo"
+                android:columnWidth="150dp"
+                android:horizontalSpacing="50dp"
+                android:layout_gravity="center"
+                android:numColumns="1"
+                android:verticalSpacing="15dp">
+            </GridView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha establecida para juntarlo"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/NegroTexto"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/greenarrow"
+        android:textSize="20dp"
+        android:text="Lunes, 20 de abril de 2020 "
+        />
+    <Button
+        android:layout_marginTop="15dp"
+        android:id="@+id/agregarahorro"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="Agregar Ahorro +"
+        android:background="@drawable/round_botton2"
+        android:layout_gravity="center"
+        android:textColor="@color/DarkBlue"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_button3">
+
+        <Button
+            android:id="@+id/añadirmeta"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:text="+ Crear Otra Meta"
+            android:background="@drawable/round_button"
+            android:layout_gravity="center"
+            android:textColor="@color/BlancoLetra"
+            />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

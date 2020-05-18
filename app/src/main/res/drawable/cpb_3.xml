@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/backgroundpg4">
+        <shape android:shape="rectangle"
+            android:useLevel="true">
+            <solid android:color="#FFFFFF"></solid>
+
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <rotate android:fromDegrees="270"
+            android:pivotX="10%"
+            android:pivotY="10%"
+            android:toDegrees="270"
+            >
+
+            <shape android:shape="rectangle"
+                android:useLevel="true"
+                >
+
+                <solid android:color="@color/DarkBlue">
+                </solid>
+
+            </shape>
+
+        </rotate>
+    </item>
+</layer-list>
