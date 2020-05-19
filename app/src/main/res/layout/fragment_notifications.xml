@@ -34,7 +34,7 @@
         />
             <GridView
                 android:layout_width="match_parent"
-                android:layout_height="550dp"
+                android:layout_height="250sp"
                 android:id="@+id/listmideseo"
                 android:columnWidth="150dp"
                 android:horizontalSpacing="50dp"

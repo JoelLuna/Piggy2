@@ -64,16 +64,17 @@
         android:textColor="@color/BlancoLetra"
         android:textSize="20dp" />
 
-<ProgressBar
+    <ProgressBar
 
-    android:layout_gravity="center"
-    android:id="@+id/progressBar"
-    style="?android:attr/progressBarStyleHorizontal"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:progressTint="@color/greenarrow"
-    android:progress="50"
-    />
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+      android:progressDrawable="@drawable/pb_drawable_1"
+        android:indeterminateDrawable="@drawable/pb_drawable_2"
+        android:progress="20"
+        />
 
 
 </LinearLayout>
@@ -110,9 +111,11 @@
 <ProgressBar
     android:id="@+id/progressBar2"
     style="?android:attr/progressBarStyleHorizontal"
-    android:layout_width="match_parent"
+    android:layout_marginLeft="25sp"
+    android:progressDrawable="@drawable/pb_drawable_1"
+    android:layout_width="300dp"
     android:layout_height="wrap_content"
-    android:progressTint="@color/greenarrow"
+    android:indeterminateDrawable="@drawable/pb_drawable_1"
     android:progress="20"/>
 
 </LinearLayout>
@@ -167,9 +170,11 @@ android:orientation="vertical"
     <ProgressBar
         android:id="@+id/progressBar3"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
+        android:layout_marginLeft="25sp"
+        android:layout_width="300dp"
+        android:indeterminateDrawable="@drawable/pb_drawable_1"
+        android:progressDrawable="@drawable/pb_drawable_2"
         android:layout_height="wrap_content"
-        android:progressTint="@color/DarkBlue"
         android:progress="20"
         />
 </LinearLayout>
