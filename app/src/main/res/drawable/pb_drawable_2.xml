@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/backgroundpg1"
+        android:useLevel="false">
+        <shape>
+            <gradient
+                android:angle="-90"
+                android:centerColor="@color/greenarrow"
+                android:endColor="@color/greenarrow"
+                android:startColor="@color/greenarrow"></gradient>
+            <size
+                android:width="15dp"
+                android:height="15dp"
+                >
+            </size>
+
+        </shape>
+    </item>
+
+    <item android:id="@+id/progress"
+        android:useLevel="true">
+        <clip>
+            <layer-list>
+                <item android:bottom="2dp"
+                    android:left="2dp"
+                    android:top="2dp"
+                    android:right="2dp">
+                    <shape>
+                        <gradient android:angle="-90"
+                            android:centerColor="@color/DarkBlue"
+                            android:endColor="@color/DarkBlue"
+                            android:startColor="@color/DarkBlue"
+                            >
+                        </gradient>
+                        <corners android:radius="4dp">
+
+                        </corners>
+                    </shape>
+                </item>
+            </layer-list>
+        </clip>
+    </item>
+</layer-list>
